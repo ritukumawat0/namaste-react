@@ -1,0 +1,46 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by Ritu kumawat.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritukumawat0/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "Ritu Kumawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritukumawat0/namaste-react/issues"
+  },
+  "homepage": "https://github.com/ritukumawat0/namaste-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.1",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.28.2"
+  }
+}
